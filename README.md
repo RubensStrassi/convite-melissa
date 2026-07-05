@@ -1,0 +1,26 @@
+# convite-melissa
+
+Convite digital de aniversário da Melissa — vídeo de abertura + convite floral, feito em um único arquivo `index.html` (vídeo e imagens já embutidos, não depende de nenhum outro arquivo).
+
+## Como publicar no GitHub Pages
+
+1. Suba este projeto para o GitHub (veja comandos abaixo)
+2. No repositório, vá em **Settings → Pages**
+3. Em "Branch", selecione `main` (pasta `/root`) e clique em **Save**
+4. Em 1–2 minutos o site estará no ar em:
+   `https://SEU_USUARIO.github.io/convite-melissa/`
+
+## Comandos git (rodar dentro desta pasta)
+
+```bash
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RubensStrassi/convite-melissa.git
+git push -u origin main
+```
+
+## Editar depois
+
+Abra o `index.html` em qualquer editor (ex: VSCode) e procure pelo comentário `EDIT AREA` perto do final do arquivo — lá está o endereço usado nos links de Google Maps / Waze, fácil de trocar.
